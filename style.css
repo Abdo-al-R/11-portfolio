@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quintessential&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Lemonada:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quintessential&family=Sriracha&display=swap');
+body{
+
+    background-color: rgb(29, 29, 29);
+}
+.pro-body{
+    background-image: url(imo/sand.jpg);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.der{
+    color: #00eeff;
+    text-align: center;
+    padding-top: 100px;
+}
+.dero{
+    text-align: center;
+    color: #00ff0d;
+    padding-top: 100px;
+}
+.dera{
+    text-align: center;
+    color: #00eeff;
+    padding-top: 100px;
+}
+header{
+    background-color: rgba(0, 0, 0,0.8);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    
+}
+
+.logo{
+    text-decoration: none;
+    font: size 1.8em; 
+    color: #00eeff;
+    font-weight: 700;
+    
+}
+
+.navi a{
+    display: inline-block;
+    color: #00eeff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    transition: 0.5s ease;
+   
+}
+.navi a:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.15);
+}
+ul {
+    display: flex;
+}
+ul li {
+    list-style: none;
+}
+
+
+section{
+    padding: 100px 200px;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(imo/we.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main h2 span{
+    color: #00eeff;
+    font-size: 3em;
+    font-weight: 600;
+    display: inline block;
+    margin-top: 10px;
+}
+
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(29, 190, 211);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition:0.5s ease ;
+    
+}
+.main-btn:hover{
+    background-color:#00eeff ;
+    transform:scale(1.1) ;
+}
+
+.social a{
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    padding-right: 30px;
+    margin-left: 3px;
+ 
+}
+.social i{
+    transition:0.5s ease;
+}
+
+.facebook:hover{
+    color: rgb(0, 89, 255);
+    transform:scale(1.3) ;
+}
+.insta:hover{
+    color: rgb(255, 0, 170);
+    transform:scale(1.3) ;
+}
+.linked:hover{
+    color: royalblue;
+    transform:scale(1.3) ;
+}
+.git:hover{
+    color: rgb(0, 255, 157);
+    transform:scale(1.3) ;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #00eeff;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.content{
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+
+}
+
+.cards{
+    background-color:  rgb(29, 29, 29);
+}
+.card{
+    background-color: rgb(0, 0, 0);
+    width: 17.89em;
+    
+    box-shadow: 0 5px 10px  rgba(0, 238, 255, 0.884);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    text-align: center;
+}
+
+.html{
+    color: rgb(255, 102, 0);
+    font-size: 7em;
+    text-align: center;
+}
+.css{
+    color: rgb(0, 68, 255);
+    font-size: 7em;
+    text-align: center;
+}
+.js{
+    color: gold;
+    font-size: 7em;
+    text-align: center;
+}
+.web{
+    color: rgb(30, 71, 255);
+    font-size: 6em;
+    text-align: center;
+}
+.brw {
+    color: rgb(253, 43, 43);
+    font-size: 6em;
+    text-align: center;
+}
+.apple{
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+    text-align: center;
+}
+.bite{
+    color: #f3f739;
+    font-size: 6em;
+    text-align: center;
+}
+.game{
+    color: #ab05cc;
+    font-size: 6em;
+    text-align: center;
+}
+.mo{
+    
+    color: #00ffaa;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+.moh{
+    font-family: 'Lemonada', cursive;
+}
+.phone{
+    color: rgb(0, 255, 55);
+    font-size: 5em;
+    text-align: center;
+}
+.email{
+    color: rgb(255, 0, 98);
+    font-size: 5em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #00eeff;
+   font-size: 1.2em;
+   font-weight: 700;
+   margin: 10px;
+}
+.info p{
+    color: white;
+}
+
+#projects{
+    background-image: url(imo/sand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+
+.projects.content{
+    margin-top: 30px;
+
+}
+#cardy{
+    box-shadow: 0 5px 10px  rgba(0, 238, 255, 0.884);
+
+}
+.pro-card{
+    
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 3px 5px rgb(30, 255, 0);
+    min-height: 14em;
+    width: 17.2em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.5s ease;
+}
+.pro-card:hover{
+    transform: scale(1.1);
+}
+.pro-card:hover .pro-image{
+    opacity: 0.9;
+}
+.pro-image img{
+    width: 100%;
+}
+.pro-info{
+    padding: 1em;
+    color: rgb(223, 221, 221);
+}
+.pro-cat{
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+}
+.pro-title{
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+#more{
+    color: #00eeff;
+
+}
+#more:hover{
+    color: rgb(255, 0, 255);
+
+}
+.more{
+    display: inline-block;
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: rgb(29, 252, 0);
+}
+.more:hover{
+    color: rgb(225, 0, 255);
+   
+}
+.contact .info p {
+  
+ font-weight: 500;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.footer-title span{
+    
+color: #0ef;
+}
+
+.footer .social {
+    font-size: 0.9em;
+    margin: 0 auto;
+}
+@media (max-width: 1023px){
+    header {
+        padding: 12px 20px;
+    }
+    .navi a {
+        padding-left: 10px;
+
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2 {
+font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:670){
+ body{
+    font-size: 12px;
+ }
+ .main h2{
+     font-size: 0.8em;
+
+ }
+ .main h3{
+     font-size:  1.4em;
+ }
+
+}
+
+@media (max-width:393px){
+    body{
+        font-size: 10px;
+    }
+    nav {
+        font-size: smaller;
+    }
+    
+    section .card p{
+        font-size: smaller;
+    }
+    footer {
+        font-size: smaller;
+    }
+    footer i{
+        font-size: smaller;
+    
+    }
+}
+nav .menu-btn i{
+    color: #00eeff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  @media (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+  }
+  @media (max-width: 500px) {
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: #111;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: cyan;
+    }
+  }
+
+ 
